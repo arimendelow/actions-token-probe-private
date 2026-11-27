@@ -26,3 +26,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: curl -s -H "Authorization: Bearer ${{ github.token }}" https://api.github.com/rate_limit | jq -c .resources.core
+# run 3
