@@ -1,0 +1,6 @@
+name: noop
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo noop
